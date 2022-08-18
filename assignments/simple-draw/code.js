@@ -37,7 +37,7 @@
 
 /*drawLine(0, 600, 500, 0, 'red', 20)
 */
-drawLine(0, 600, 0, 0, 'black', 1000)
+drawLine(0, 600, 0, 0, 'white', 1000)
 
 drawLine(0, 600, 0, 0, 'black', 20)
 
