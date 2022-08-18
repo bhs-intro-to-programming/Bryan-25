@@ -43,7 +43,7 @@ drawLine(0, 600, 600, 600, 'red', 20)
 
 drawLine(600, 0, 0, 0, 'red', 20)
 
-drawLine(500, 500, 500, 50, 'red', 20)
+drawLine(500, 500, 500, 0, 'red', 20)
 
 drawCircle(width/2, height/2, 10, 'blue');
 
