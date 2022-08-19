@@ -41,6 +41,7 @@ drawLine(0, 600, 0, 0, 'coral', 1000)
 drawLine(500, 00, 0, 0, 'dogerblue',200 )
 
 drawLine(500, 0, 0, 0, 'royalblue',200 )
+
 drawLine(0, 600, 0, 0, 'black', 20)
 
 drawLine(0, 600, 600, 600, 'black', 20)
