@@ -54,4 +54,6 @@ drawFilledCircle( 250, 300, 50, 'yellow');
 
 drawFilledCircle( 100, 600, 300, 'green');
 
+drawFilledCircle( 500, 600, 300, 'green');
+
 drawFilledRect(5, height - 20, 45, 15, 'purple');
