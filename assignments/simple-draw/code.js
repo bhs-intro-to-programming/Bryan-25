@@ -38,6 +38,8 @@ drawLine(0, 600, 500, 0, 'red', 20)
 
 drawLine(0, 600, 0, 0, 'coral', 1000)
 
+drawLine(500, 500, 0, 500, 'yellow',50 )
+
 drawLine(500, 150, 0, 150, 'lightsalmon',50 )
 
 drawLine(500, 100, 0, 100, 'dodgerblue',100 )
@@ -54,7 +56,8 @@ drawLine(500, height, 500, 0, 'black', 20)
 
 drawCircle(width/2, height/2, 10, 'blue');
 
-drawRect(50, 50, 60, 40, 'black');
+/*drawRect(50, 50, 60, 40, 'black');
+*/
 
 drawFilledCircle( 250, 300, 50, 'gold');
 
