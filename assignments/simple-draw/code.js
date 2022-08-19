@@ -38,7 +38,7 @@ drawLine(0, 600, 500, 0, 'red', 20)
 
 drawLine(0, 600, 0, 0, 'coral', 1000)
 
-drawLine(1000, 600, 0, 0, 'royalblue', 600)
+drawLine(1000, 50, 0, 0, 'royalblue', 600)
 
 drawLine(0, 600, 0, 0, 'black', 20)
 
