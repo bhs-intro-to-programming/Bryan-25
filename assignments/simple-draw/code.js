@@ -40,7 +40,7 @@ drawLine(0, 600, 0, 0, 'coral', 1000)
 
 drawLine(500, 0, 0, 0, 'royalblue',200 )
 
-drawLine(500, 0, 0, 0, 'royalblue',200 )
+drawLine(500, 0, 0, 0, 'dogerblue',200 )
 
 drawLine(0, 600, 0, 0, 'black', 20)
 
