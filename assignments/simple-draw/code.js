@@ -54,11 +54,11 @@ drawFilledCircle( 250, 300, 50, 'yellow');
 
 
 
-drawFilledCircle( 100, 600, 300, 'forestgreen');
+drawFilledCircle( 100, 600, 300, 'green');
 
 drawCircle( 100, 600, 300, 'black');
 
-drawFilledCircle( 400, 600, 300, 'green');
+drawFilledCircle( 400, 600, 300, 'forestgreen');
 
 drawCircle( 400, 600, 300, 'black');
 
