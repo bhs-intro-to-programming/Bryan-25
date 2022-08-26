@@ -4,5 +4,11 @@
     "answer": "!afraidOfTheDark&&!afraidOfSpiders",
     "correct": true,
     "timestamp": 1661551424002
+  },
+  {
+    "name": "In the room where it happens?",
+    "answer": "inTheClass||isProctor",
+    "correct": true,
+    "timestamp": 1661551441506
   }
 ]
