@@ -54,5 +54,12 @@
     "answer": "(a+b+c)/3",
     "correct": true,
     "timestamp": 1661812192915
+  },
+  {
+    "name": "General average",
+    "canonical": "total / count",
+    "answer": "count/total",
+    "correct": false,
+    "timestamp": 1661812205932
   }
 ]
