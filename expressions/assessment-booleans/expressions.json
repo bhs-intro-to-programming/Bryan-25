@@ -54,5 +54,12 @@
     "answer": "!afraidOfTheDark&&!afraidOfSpiders",
     "correct": true,
     "timestamp": 1661896919379
+  },
+  {
+    "name": "Having fun?",
+    "canonical": "done || !fun",
+    "answer": "done||!fun",
+    "correct": true,
+    "timestamp": 1661896946756
   }
 ]
