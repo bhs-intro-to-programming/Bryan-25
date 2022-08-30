@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Last character",
+    "canonical": "s[s.length - 1]",
+    "answer": "s.subtring(0,s.length-1)",
+    "correct": false,
+    "timestamp": 1661897480565
+  }
+]
