@@ -5,5 +5,12 @@
     "answer": "!storeOpen||!isASale",
     "correct": true,
     "timestamp": 1661896369194
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "isSenior||invitedBySenior",
+    "correct": true,
+    "timestamp": 1661896398994
   }
 ]
