@@ -12,5 +12,12 @@
     "answer": "isSenior||invitedBySenior",
     "correct": true,
     "timestamp": 1661896398994
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "!sleepy>=dark",
+    "correct": true,
+    "timestamp": 1661896683539
   }
 ]
