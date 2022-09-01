@@ -19,21 +19,7 @@ const drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 1) => {
   drawLine(x3, y3, x1, y1, color, width);
 };
 
-// This draws a falling trangle of a particular shape whose bottom point is
-// positioned at x and whose y is a function of time.
-const drawFallingTriangle = (x, time) => {
-  // Figure out the x values relative to the passed in x
-  let x1 = x - 50;
-  let x2 = x;
-  let x3 = x + 50;
 
-  // Figure out the y values as a function of time.
-  let y1 = (time / 4) % height;
-  let y2 = y1 + 37;
-  let y3 = y1 - 13;
-
-  // Actually draw the triangle.
-  drawTriangle(x1, y1, x2, y2, x3, y3, 'pink', 3);
 };
 
 // Leave this code here or the animation won't run. Also don't change the name
