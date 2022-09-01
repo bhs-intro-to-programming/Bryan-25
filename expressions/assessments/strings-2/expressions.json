@@ -5,5 +5,12 @@
     "answer": "s.length",
     "correct": true,
     "timestamp": 1662069057281
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.toLowerCase",
+    "correct": false,
+    "timestamp": 1662069073928
   }
 ]
