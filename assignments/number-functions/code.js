@@ -19,6 +19,6 @@ const averageOfTwo = (a,b) => {
 const averageOfTwo = (a,b) => {
   return (a+b)/2 ;
 };
-const averageOfTwo = (a,b,c) => {
+const averageOfThree = (a,b,c) => {
   return (a+b+c)/3 ;
 };
