@@ -49,3 +49,6 @@ const isSpotted = (birdS) => {
 const isNotRed = (birdNR) => {
   return birdNR === "Flibble" || birdNR === "Globby" ;
 };
+const isNotSpotted = (birdNS) => {
+  return birdNS === "Globby" || birdNS === "Bloggy" ;
+};
