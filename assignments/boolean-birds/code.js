@@ -17,5 +17,5 @@
  *
  */
 const isFlobbyBird = (_isRed,_isSpotted) => {
-  return isRed && isSpotted ;
+  return _isRed && _isSpotted ;
 };
