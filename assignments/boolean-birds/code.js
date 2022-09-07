@@ -40,3 +40,6 @@ const eatsFish = (_isRed,_isSpotted) => {
 const eatsMice = (_isRed,_isSpotted) => {
   return !_isRed || !_isSpotted ;
 };
+const eatsWorms = (_Flobby,_Bloggy,_Flibble,_Globby) => {
+  return _Flobby || _Bloggy ;
+};
