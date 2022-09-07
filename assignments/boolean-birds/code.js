@@ -31,3 +31,6 @@ const isGlobbyBird = (_isRed,_isSpotted) => {
 const eatsWorms = (_isRed,_isSpotted) => {
   return _isRed || _isSpotted ;
 };
+const eatsNuts = (_isRed,_isSpotted) => {
+  return _isRed || !_isSpotted ;
+};
