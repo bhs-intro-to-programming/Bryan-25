@@ -40,6 +40,9 @@ const eatsFish = (_isRed,_isSpotted) => {
 const eatsMice = (_isRed,_isSpotted) => {
   return !_isRed || !_isSpotted ;
 };
-const isRed = (bird) => {
-  return bird === "Flobby" || bird === "Bloggy" ;
+const isRed = (birdR) => {
+  return birdR === "Flobby" || bird === "Bloggy" ;
+};
+const isSpotted = (birdS) => {
+  return birdR === "Flobby" || bird === "Fliblle" ;
 };
