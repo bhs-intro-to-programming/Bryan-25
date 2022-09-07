@@ -41,8 +41,8 @@ const eatsMice = (_isRed,_isSpotted) => {
   return !_isRed || !_isSpotted ;
 };
 const isRed = (birdR) => {
-  return birdR === "Flobby" || bird === "Bloggy" ;
+  return birdR === "Flobby" || birdR === "Bloggy" ;
 };
 const isSpotted = (birdS) => {
-  return birdR === "Flobby" || bird === "Fliblle" ;
+  return birdR === "Flobby" || birdS === "Fliblle" ;
 };
