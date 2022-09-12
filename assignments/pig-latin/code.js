@@ -37,6 +37,6 @@ _fP.substring(_fP.search(/[aeiou]/),_fP.length)+
 _fP.substring(0,_fP.search(/[aeiou]/))+'ay'
 
 const advancedPigLatin = (_fP) =>
-_fP.search(/[aeiou]/ === 0 ?  _fP+'way': 
+_fP.search(/[aeiou]/) === 0 ?  _fP+'way': 
 _fP.substring(_fP.search(/[aeiou]/),_fP.length)+
 _fP.substring(0,_fP.search(/[aeiou]/))+'ay'
