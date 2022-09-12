@@ -33,4 +33,4 @@
 // operator works.
 
 const pigLatin = (_fP) =>
- _fP.substring(_fP.search(/[aeiou]/))
+_fP.substring(s.search(0,/[aeiou]/)) _fP.substring(_fP.search(/[aeiou]/))
