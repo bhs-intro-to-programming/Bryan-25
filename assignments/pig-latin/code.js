@@ -32,4 +32,4 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = (_fP) => _fP.substring(s.search(/[aeiou]/))
+const pigLatin = (_fP) => _fP.substring(_fP.search(/[aeiou]/))
