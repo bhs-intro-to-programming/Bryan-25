@@ -34,4 +34,3 @@
 
 const pigLatin = (_fP) =>
 _fP.substring(_fP.search(/[aeiou]/),_fP.length)+
-_fP.substring(_fP.search(/[aeiou]/))
