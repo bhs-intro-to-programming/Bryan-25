@@ -32,11 +32,11 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = (_fP) =>
-_fP.substring(_fP.search(/[aeiou]/),_fP.length)+
-_fP.substring(0,_fP.search(/[aeiou]/))+'ay'
+const pigLatin = (pig) =>
+  pig.substring(pig.search(/[aeiou]/), pig.length) +
+  pig.substring(0, pig.search(/[aeiou]/)) + 'ay'
 
-const advancedPigLatin = (_fP) =>
-_fP.search(/[aeiou]/) === 0 ?  _fP+'way': 
-_fP.substring(_fP.search(/[aeiou]/),_fP.length)+
-_fP.substring(0,_fP.search(/[aeiou]/))+'ay'
+const advancedPigLatin = (pig) =>
+  pig.search(/[aeiou]/) === 0 ? pig + 'way' :
+    pig.substring(pig.search(/[aeiou]/), pig.length) +
+    pig.substring(0, pig.search(/[aeiou]/)) + 'ay'
