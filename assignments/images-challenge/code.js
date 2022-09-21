@@ -23,7 +23,7 @@
  *
  *  clear()
  */
-let radius = 20
+let radius = 100
 const lineOfCircles = (radius) => {
   const diameter = 2*radius
   const dist = Math.floor(width/diameter)*diameter
