@@ -47,6 +47,7 @@ while (x < width - extra) {
   drawFilledCircle(x + radius + extra / 2, height / 2, radius, color)
   x += diameter
   roy = roy + 1
-  if roy %2 == 0
+  if (roy %2 == 0)
+  if (roy %2 == 1)
 }
 }
