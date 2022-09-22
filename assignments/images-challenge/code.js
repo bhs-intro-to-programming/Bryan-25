@@ -22,7 +22,7 @@
  *  drawFilledTriangle(x1, y1, x2, y2, x3, y3, color)
  *
  *  clear()
- */
+ 
 const lineOfCircles = (radius) => {
   const diameter = 2 * radius
   const dist = Math.floor(width / diameter) * diameter
@@ -35,7 +35,7 @@ const lineOfCircles = (radius) => {
 }
 
 lineOfCircles(10);
-
+*/
 let radius = 20
 let roy = 0
 let color = 'red'
