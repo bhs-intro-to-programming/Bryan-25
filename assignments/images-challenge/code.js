@@ -50,4 +50,3 @@ while (x < width - extra) {
   if (roy %2 == 0)
   if (roy %2 == 1)
 }
-}
