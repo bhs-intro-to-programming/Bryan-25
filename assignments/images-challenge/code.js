@@ -33,4 +33,4 @@ const lineOfCircles = (radius) => {
     x += diameter
   }
 }
-lineOfCircles(1);
+lineOfCircles(10);
