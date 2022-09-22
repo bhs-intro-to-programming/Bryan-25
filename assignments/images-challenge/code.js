@@ -24,13 +24,29 @@
  *  clear()
  */
 const lineOfCircles = (radius) => {
-  const diameter = 2*radius
-  const dist = Math.floor(width/diameter)*diameter
-  const extra = width-dist
+  const diameter = 2 * radius
+  const dist = Math.floor(width / diameter) * diameter
+  const extra = width - dist
   let x = 0
-  while (x < width-extra){ 
-    drawFilledCircle(x+radius+extra/2, height/2, radius, 'red')
+  while (x < width - extra) {
+    drawFilledCircle(x + radius + extra / 2, height / 2, radius, 'red')
     x += diameter
   }
 }
+
 lineOfCircles(10);
+
+let radius = 20
+let roy = 0
+let color = 'red'
+const diameter = 2 * radius
+const dist = Math.floor(width / diameter) * diameter
+const extra = width - dist
+let x = 0
+while (x < width - extra) {
+  drawFilledCircle(x + radius + extra / 2, height / 2, radius, color)
+  x += diameter
+  roy = roy + 1
+  if roy %2 == 0
+}
+}
