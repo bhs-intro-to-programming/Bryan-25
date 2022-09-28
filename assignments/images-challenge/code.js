@@ -56,9 +56,9 @@ while (x < width - extra) {
 */
 
 dartBoard = (score) => {
-let color = 'red'
-let alternate = 0
-let factor = height/2
-drawFilledCircle (width/2, height/2, height/2 color)
+let color = 'red' ;
+let alternate = 0 ;
+let factor = height/2 ;
+drawFilledCircle (width/2, height/2, height/2 color) ;
 
 }
