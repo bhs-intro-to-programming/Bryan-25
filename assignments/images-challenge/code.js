@@ -55,7 +55,7 @@ while (x < width - extra) {
 }
 */
 
-dartBoard = (score) => {
+const dartBoard = (score) => {
 let color = 'red' ;
 let alternate = 0 ;
 let factor = height/2 ;
