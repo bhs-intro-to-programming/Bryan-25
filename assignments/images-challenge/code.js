@@ -62,7 +62,12 @@ let factor = height/2 ;
 drawFilledCircle (width/2, height/2, height/2, color) ;
 for (let i =0; i< score + 1; i++) {
 drawFilledCircle (width/2, height/2, factor, color) ;
-
+if (alternate % 2 == 0) {
+      color = 'blue';
+    }
+    if (alternate % 2 == 1) {
+      color = 'red';
+    }
 }
 
 }
