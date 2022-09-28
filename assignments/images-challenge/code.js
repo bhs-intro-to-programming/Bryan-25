@@ -59,4 +59,4 @@ dartBoard = (score) => {
 let color = 'red'
 let alternate = 0
 let factor = height/2
-drawFilledCircle (height/2, width/2, 10, color)
+drawFilledCircle (width/2, height/2, 10, color)
