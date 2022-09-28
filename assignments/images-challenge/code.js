@@ -57,4 +57,6 @@ while (x < width - extra) {
 
 dartBoard = (score) => {
 let color = 'red'
-let change = 0 
+let alternate = 0
+let factor = height/2
+drawFilledCircle (height/2, width/2, 10, color)
