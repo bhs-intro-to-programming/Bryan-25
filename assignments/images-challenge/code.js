@@ -35,7 +35,6 @@ const lineOfCircles = (radius) => {
 }
 
 lineOfCircles(10);
-*/
 let radius = 20
 let roy = 0
 let color = 'red'
@@ -54,3 +53,8 @@ while (x < width - extra) {
     color ='blue'
   }
 }
+*/
+
+dartBoard = (score) => {
+let color = 'red'
+let change = 0 
