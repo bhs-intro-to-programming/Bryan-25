@@ -71,7 +71,6 @@ if (alternate % 2 == 0) {
         alternate = alternate + 1
     factor = height / 2 - ((height/2) / count * c)
   }  
-}
 
 }
 
