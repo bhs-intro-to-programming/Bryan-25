@@ -67,7 +67,7 @@ const dartBoard = (score) => {
       color = 'red';
     }
     roy = roy + 1
-    factor = height / 2 - ((height / 2) / score * c)
+    factor = height / 2 - ((height / 2) / score * i)
   }
 
 }
