@@ -60,13 +60,13 @@ const dartBoard = (score) => {
   drawFilledCircle(width / 2, height / 2, height / 2, color);
   for (let i = 0; i < score + 1; i++) {
     drawFilledCircle(width / 2, height / 2, factor, color);
-    if (alternate % 2 == 0) {
+    if (roy % 2 == 0) {
       color = 'blue';
     }
-    if (alternate % 2 == 1) {
+    if (roy % 2 == 1) {
       color = 'red';
     }
-    alternate = alternate + 1
+    roy = roy + 1
     factor = height / 2 - ((height / 2) / count * c)
   }
 
