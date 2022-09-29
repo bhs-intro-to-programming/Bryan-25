@@ -73,3 +73,4 @@ const dartBoard = (score) => {
   }
 
 }
+dartBoard(20)
