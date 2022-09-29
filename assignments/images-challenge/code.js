@@ -62,8 +62,7 @@ const dartBoard = (score) => {
     drawFilledCircle(width / 2, height / 2, factor, color);
     if (roy % 2 == 0) {
       color = 'blue';
-    }
-    if (roy % 2 == 1) {
+    } if (roy % 2 == 1) {
       color = 'red';
     }
     roy = roy + 1
