@@ -53,7 +53,6 @@ while (x < width - extra) {
     color ='blue'
   }
 }
-*/
 
 const dartBoard = (score) => {
   let color = 'red'; let roy = 0; let factor = height / 2;
@@ -74,3 +73,11 @@ const dartBoard = (score) => {
 
 }
 dartBoard(20)
+*/
+
+const LinearC = (l) => {
+
+  for (let i = 0; i < l + 1; i++) {
+ drawLine(0, 0+l, )
+}
+}
