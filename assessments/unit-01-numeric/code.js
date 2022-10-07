@@ -24,5 +24,5 @@ const earnedRunAverage = (eR, pI) => {
   return (eR/pI)*9 ;
 };
 const valueOfJewels = (nD, nE, dG, eG) => {
-  return nD * dG + nE * eG ;
+  return (nD * dG) + (nE * eG) ;
 };
