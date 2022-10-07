@@ -27,7 +27,7 @@ const valueOfJewels = (nD, nE, dG, eG) => {
   return (nD * dG) + (nE * eG);
 };
 const payWithOvertime = (hW, hR, oR) => {
-  return (hR * (hW -1)) + (oR * hW - );
+  return (hR * (hW -1)) + (oR * hW - 1);
 };
 const weightOnJupiter = (eW) => {
   return eW * (JUPITER_GRAVITY / EARTH_GRAVITY);
