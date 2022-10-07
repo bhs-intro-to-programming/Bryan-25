@@ -27,5 +27,5 @@ const valueOfJewels = (nD, nE, dG, eG) => {
   return (nD * dG) + (nE * eG);
 };
 const payWithOvertime = (hW, hR, oR) => {
-  return hR * hW + oR - 8 * hR;
+  return (hR * hW) + (oR - 8 * hR);
 };
