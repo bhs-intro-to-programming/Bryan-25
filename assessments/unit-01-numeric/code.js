@@ -21,8 +21,8 @@ const populationGrowth = (cP, gP) => {
   return cP * gP ;
 };
 const earnedRunAverage = (eR, pI) => {
-  return eR ;
+  return (eR/pI)*9 ;
 };
-const valueOfJewels = (nD, nE) => {
-  return cP * gP ;
+const valueOfJewels = (nD, nE, dG, eG) => {
+  return nD * dG + nE * eG ;
 };
