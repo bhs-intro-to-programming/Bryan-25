@@ -15,14 +15,16 @@ const areaOfCircle = (radius) => {
   return Math.PI * (radius ** 2);
 };
 const volumeOfCube = (edge) => {
-  return ;
+  return;
 };
 const populationGrowth = (cP, gP) => {
-  return cP * gP ;
+  return cP * gP;
 };
 const earnedRunAverage = (eR, pI) => {
-  return (eR/pI)*9 ;
+  return (eR / pI) * 9;
 };
 const valueOfJewels = (nD, nE, dG, eG) => {
-  return (nD * dG) + (nE * eG) ;
+  return (nD * dG) + (nE * eG);
 };
+const payWithOvertime = (hW, hR, oR) => {
+  return hR * hW + oR - 8 * hR;
