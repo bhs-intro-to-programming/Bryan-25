@@ -16,5 +16,5 @@ const canBePresident = (pA, nBC, lUS) => {
   return pA >= 35 && nBC == true && lUS >= 14;
 };
 const willSeeTweet = (fT,fRT,bOT) => {
-  return fT || fRT || !bOT;
+  return fT || fRT && !bOT;
 };
