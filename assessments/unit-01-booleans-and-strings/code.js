@@ -19,5 +19,5 @@ const willSeeTweet = (fT,fRT,bOT) => {
   return fT && !bOT || fRT && !bOT;
 };
 const evenGreaterThanZero = (number) => {
-  return number > 0 && number % == 0;
+  return number > 0 && number %2 == 0;
 };
