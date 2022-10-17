@@ -12,6 +12,6 @@ const rand = (n) => Math.floor(Math.random() * n);
 const fireAlarm = (fA, sD, pFD) => {
   return fA || sD || pFD;
 };
-const canBePresident = (pA, lUS) => {
-  return pA >= 35 && lUS >= 14;
+const canBePresident = (pA,nBC,lUS) => {
+  return pA >= 35 && nBC == true && lUS >= 141;
 };
