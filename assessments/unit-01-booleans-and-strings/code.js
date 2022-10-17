@@ -15,9 +15,12 @@ const fireAlarm = (fA, sD, pFD) => {
 const canBePresident = (pA, nBC, lUS) => {
   return pA >= 35 && nBC == true && lUS >= 14;
 };
-const willSeeTweet = (fT,fRT,bOT) => {
+const willSeeTweet = (fT, fRT, bOT) => {
   return fT && !bOT || fRT && !bOT;
 };
 const evenGreaterThanZero = (number) => {
-  return number > 0 && number %2 == 0;
+  return number > 0 && number % 2 == 0;
+};
+const isLeapYear = (year) => {
+  return year % 4 === 0 && !year % 100 === 0 || year % 400 === 0;
 };
