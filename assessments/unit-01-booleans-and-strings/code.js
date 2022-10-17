@@ -13,5 +13,5 @@ const fireAlarm = (fA, sD, pFD) => {
   return fA || sD || pFD;
 };
 const canBePresident = (pA,nBC,lUS) => {
-  return pA >= 35 && nBC == true && lUS >= 141;
+  return pA >= 35 && nBC == true && lUS >= 14;
 };
