@@ -24,3 +24,6 @@ const evenGreaterThanZero = (number) => {
 const isLeapYear = (year) => {
   return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
 };
+const firstAndLast = (s) => {
+  return s.substring(0,1)+s.substring(s.length-1,s.length)	;
+};
