@@ -5,5 +5,5 @@ const countTens = (numeros) => {
       ten = ten + 1
     }
   };
-  return;
+  return ten
 };
