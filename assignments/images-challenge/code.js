@@ -22,4 +22,62 @@
  *  drawFilledTriangle(x1, y1, x2, y2, x3, y3, color)
  *
  *  clear()
- */
+ 
+const lineOfCircles = (radius) => {
+  const diameter = 2 * radius
+  const dist = Math.floor(width / diameter) * diameter
+  const extra = width - dist
+  let x = 0
+  while (x < width - extra) {
+    drawFilledCircle(x + radius + extra / 2, height / 2, radius, 'red')
+    x += diameter
+  }
+}
+
+lineOfCircles(10);
+let radius = 20
+let roy = 0
+let color = 'red'
+const diameter = 2 * radius
+const dist = Math.floor(width / diameter) * diameter
+const extra = width - dist
+let x = 0
+while (x < width - extra) {
+  drawFilledCircle(x + radius + extra / 2, height / 2, radius, color)
+  x += diameter
+  roy = roy + 1
+  if (roy %2 == 0) {
+    color = 'red'
+  }
+  if (roy %2 == 1) {
+    color ='blue'
+  }
+}
+
+const dartBoard = (score) => {
+  let color = 'red'; let roy = 0; let factor = height / 2;
+
+  drawFilledCircle(width / 2, height / 2, height / 2, color);
+
+  for (let i = 0; i < score + 1; i++) {
+    drawFilledCircle(width / 2, height / 2, factor, color);
+
+    if (roy % 2 == 0) { color = 'blue'; } if (roy % 2 == 1) {
+      color = 'red';
+    }
+
+    roy = roy + 1
+
+    factor = height / 2 - ((height / 2) / score * i)
+  }
+
+}
+dartBoard(20)
+*/
+
+const LinearC = (l) => {
+
+  for (let i = 0; i < l + 1; i++) {
+ drawLine(0, 0+l, )
+}
+}
