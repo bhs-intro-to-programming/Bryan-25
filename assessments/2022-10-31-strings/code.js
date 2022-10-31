@@ -11,14 +11,14 @@ const rand = (n) => Math.floor(Math.random() * n);
 // function but you can get partial credit for a function that is basically
 // correct even if contains small mistakes.
 
-const firstHalf  = (s) => {
-  return s.substring(0,s.length/2) ;
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2);
 };
 
-const secondHalf  = (s) => {
-  return s.substring(s.length/2,s.length);
+const secondHalf = (s) => {
+  return s.substring(s.length / 2, s.length);
 };
 
-const upDown  = (s) => {
-  return s.toUpperCase+s.toLowerCase;
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase();
 };
