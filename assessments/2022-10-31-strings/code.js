@@ -16,5 +16,5 @@ const firstHalf  = (s) => {
 };
 
 const secondHalf  = (s) => {
-  return ;
+  return s.substring(s.length/2,s.length);
 };
