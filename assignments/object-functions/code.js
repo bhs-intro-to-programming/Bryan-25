@@ -5,5 +5,5 @@
 return { 'x': object1, 'y': object2 }
 }
  const emptyObject = () => {
-  return 
+  return {}
 }
