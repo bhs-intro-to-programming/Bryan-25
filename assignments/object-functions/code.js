@@ -1,3 +1,3 @@
- const getX = (things) => {
-  return 
+ const getX = (object) => {
+  return object[x]
 }
