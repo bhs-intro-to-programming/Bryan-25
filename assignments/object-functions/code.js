@@ -7,3 +7,6 @@ return { 'x': object1, 'y': object2 }
  const emptyObject = () => {
   return {}
 }
+ const distance = () => {
+  return {}
+}
