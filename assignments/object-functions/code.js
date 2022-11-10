@@ -7,6 +7,6 @@ return { 'x': object1, 'y': object2 }
  const emptyObject = () => {
   return {}
 }
- const distance = () => {
-  return Math.sqrt({ 'x': object1 - 'y': object2 }+{ 'x': object1 - 'y': object2 }) 
+ const distance = (x,y) => {
+  return Math.sqrt({ 'x': x - 'y': y }+{ 'x': x - 'y': y }) 
 }
