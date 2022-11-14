@@ -12,7 +12,7 @@ return
 
 const isSamePoint = (p1, p2) => {
 let point = { x: p1, y: p2 };
-return point.p1 == point.p2
+return x.p1 == y.p2
 };
 
 const totalWithTip = (bill, tipPercentage) => {
