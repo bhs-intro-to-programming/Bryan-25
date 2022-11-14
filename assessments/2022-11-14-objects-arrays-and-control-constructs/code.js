@@ -6,7 +6,9 @@ return
 };
 
 const higherPaid = (e1, e2) => {
-return 
+return { 'x': e1, 'y': e2 } >  { 'x': e1, 'y': e2 }
+
+
 };
 
 const isSamePoint = (p1, p2) => {
