@@ -2,20 +2,20 @@
 // should save you some time.
 
 const area = (rect) => {
-return
+  return
 };
 
 const higherPaid = (e1, e2) => {
-return 
+  return
 
 };
 
 const isSamePoint = (p1, p2) => {
-return {x:p1 == y:p2}
+  return { 'x': p1 == 'y': p2 }
 };
 
 const totalWithTip = (bill, tipPercentage) => {
-return
+  return
 };
 
 const isWinner = (player) => {
