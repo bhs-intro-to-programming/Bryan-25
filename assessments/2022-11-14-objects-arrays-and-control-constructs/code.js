@@ -6,7 +6,7 @@ return
 };
 
 const higherPaid = (e1, e2) => {
-return { 'x': e1, 'y': e2 }
+return { e1 > e2 }
 
 
 };
