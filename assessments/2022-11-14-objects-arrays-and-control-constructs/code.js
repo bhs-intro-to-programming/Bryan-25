@@ -6,7 +6,12 @@ return rect.width * rect.height
 };
 
 const higherPaid = (e1, e2) => {
-return 
+
+if( e1.salary > e2.salary ){
+  return e1
+} else {
+  return e2
+}
 
 };
 
