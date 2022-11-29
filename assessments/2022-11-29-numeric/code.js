@@ -1,5 +1,6 @@
 const totalEggs = (hEgg, sEgg) => {
   return hEgg + sEgg
 };
-chocolatesPerPerson(c,p)
+chocolatesPerPerson = (c,p) => {
 return c/p
+};
