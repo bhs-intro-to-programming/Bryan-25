@@ -7,7 +7,7 @@ const chocolatesPerPerson = (c, p) => {
 const extraChocolates = (c, p) => {
   return c % p
 };
-const leftOut = (c, p) => { /*????????*/
+const leftOut = (c, p) => {
   if (p - c == <1 )
   return p - c
   else return 0
