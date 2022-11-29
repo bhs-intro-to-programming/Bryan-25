@@ -7,6 +7,6 @@ const chocolatesPerPerson = (c,p) => {
 const extraChocolates = (c,p) => {
   return c%p
 };
-const leftOut = (c,p0) => {
+const leftOut = (c,p) => {
   return p-c
 };
