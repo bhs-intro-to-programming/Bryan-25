@@ -22,6 +22,6 @@ const presentsBudget = (friends,price) => {
 const perPresent = (budget, presents) => {
   return budget/presents
 };
-const wrapingCombos = (numberK,numberR,numberB) => {
+const wrappingCombos = (numberK,numberR,numberB) => {
   return numberK*numberR*numberB
 };
