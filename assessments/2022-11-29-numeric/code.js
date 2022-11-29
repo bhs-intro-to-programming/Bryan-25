@@ -26,5 +26,5 @@ const wrappingCombos = (numberK,numberR,numberB) => {
   return numberK*numberR*numberB
 };
 const biggestNumber = (digits) => {
-  return 
+  return 9*10**(digits-1)+9*digits
 };
