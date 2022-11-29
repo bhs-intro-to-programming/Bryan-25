@@ -25,3 +25,6 @@ const perPresent = (budget, presents) => {
 const wrappingCombos = (numberK,numberR,numberB) => {
   return numberK*numberR*numberB
 };
+const biggestNumber = (digits) => {
+  return 9*10**digits
+};
