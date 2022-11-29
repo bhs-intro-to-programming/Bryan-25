@@ -13,3 +13,9 @@ const leftOut = (c,p) => {
 const probabilityAllHeads = (flips) => {
   return 0.5**flips
 };
+const futureHour = (current, future) => {
+  return current + future
+};
+const presentsBudget = (friends,price) => {
+  return friends*price
+};
