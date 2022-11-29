@@ -8,7 +8,7 @@ const extraChocolates = (c, p) => {
   return c % p
 };
 const leftOut = (c, p) => { /*????????*/
-  if p - c == <1 
+  if (p - c == <1 )
   return p - c
   else return 0
 };
