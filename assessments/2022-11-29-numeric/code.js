@@ -10,3 +10,6 @@ const extraChocolates = (c,p) => {
 const leftOut = (c,p) => {
   return p-c
 };
+const probabilityAllHeads = (flips) => {
+  return 0.5**flips
+};
