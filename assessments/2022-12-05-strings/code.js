@@ -3,5 +3,5 @@ const upToX = (s) => {
 };
 
 const charactersAround = (s, index) => {
-  return s.substring(index-1,index)+s.substring(index,index)
+  return s.substring(index-1,index)+s.substring(index,index+1)
 };
