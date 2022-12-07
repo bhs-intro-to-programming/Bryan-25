@@ -7,6 +7,7 @@
 /*
  * This one is some particular dark magic. Definitely don't worry about
  * what it's doing.
+ * So spooky.
  */
 const hash = (s) => {
   return [...JSON.stringify(s)]
@@ -78,3 +79,31 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const logIfOk = (argument) => {
+  
+};
+
+const firstOk = (nArgument) => {
+  return 
+};
+
+const timeToLeet = () => {
+  return
+};
+
+const classify = () => {
+  
+};
+
+const threewayClassify = (argument) => {
+  
+};
+
+const sumOfSquares = (nArgument) => {
+  return
+};
+
+const pairs = (nArgument) => {
+  
+};
