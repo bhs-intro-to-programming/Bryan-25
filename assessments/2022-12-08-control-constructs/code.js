@@ -8,4 +8,4 @@ const yesIfEven = (n) => {
 
 const countXs = (s) => {
  return s[x]
-}
+};
