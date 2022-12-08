@@ -9,3 +9,7 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
  return s['x']
 };
+
+const countXs = (s) => {
+ return s['x']
+};
