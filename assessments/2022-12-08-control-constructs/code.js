@@ -7,5 +7,5 @@ const yesIfEven = (n) => {
 }
 
 const countXs = (s) => {
- return s.indexOf('x')
+ return s.('x')
 };
