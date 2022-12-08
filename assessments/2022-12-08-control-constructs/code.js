@@ -5,3 +5,7 @@ const yesIfEven = (n) => {
   return 'no'
 }
 }
+
+const countXs = (s) => {
+ return s[x]
+}
