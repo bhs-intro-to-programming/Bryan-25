@@ -144,5 +144,9 @@ const randomCharacterUpDown = (s) => {
 }
 
 const isAllUpperCase = (s) => {
-  return 
+    if s.toUpperCase === s {
+      return true
+    } else {
+      return false
+    }
 }
