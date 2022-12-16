@@ -162,3 +162,7 @@ const sameIgnoringCase = (s1, s2) => {
 const firstName = (s) => {
   return s.substring(0, s.indexOf(' '))
 }
+
+const lastName = (s) => {
+  return s.substring(s.indexOf(' '), s.length)
+}
