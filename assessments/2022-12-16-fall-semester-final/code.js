@@ -46,7 +46,7 @@ const recordMeh = (x) => { log(`MEH: ${x}`); }
 
 /*
  * This one is some particular dark magic. Definitely don't worry about
- * what it's doing.
+ * what it's doing. How spoopy
  */
 const hash = (s) => {
   return [...JSON.stringify(s)]
@@ -141,4 +141,8 @@ const randomCharacter = (s) => {
 const randomCharacterUpDown = (s) => {
   return s[rand(s.length)].toUpperCase() +
    s[rand(s.length)].toLowerCase()
+}
+
+const isAllUpperCase = (s) => {
+  return 
 }
