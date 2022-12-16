@@ -168,6 +168,10 @@ const lastName = (s) => {
 }
 
 const initials = (s) => {
-  return s.substring(0,1)+
-  s.substring(s.indexOf(' ') + 1,s.indexOf(' ') + 2)
+  return s.substring(0, 1) +
+    s.substring(s.indexOf(' ') + 1, s.indexOf(' ') + 2)
 }
+
+const upToX = (s) => {
+  return s.substring(0, s.indexOf('x'))
+};
