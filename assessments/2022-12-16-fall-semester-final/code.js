@@ -104,3 +104,7 @@ const totalEggs = (hEgg, sEgg) => {
 const firstFewEveryOther = (s) => {
   return s[0] + s[2] + s[4]
 }
+
+const firstHalf = (s) => {
+  return s.substring(s.length / 2);
+}
