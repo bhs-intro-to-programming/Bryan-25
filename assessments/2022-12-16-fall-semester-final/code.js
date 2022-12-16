@@ -134,6 +134,6 @@ const simplePigLatin = (s, v) => {
   return s.substring(v, s.length) + s.substring(0, v) + 'ay'
 }
 
-const randomCharacter = () => {
-  return 
+const randomCharacter = (s) => {
+  return rand(s)
 }
