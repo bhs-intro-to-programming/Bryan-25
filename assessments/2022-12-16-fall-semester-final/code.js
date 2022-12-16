@@ -122,6 +122,7 @@ const upDown = (s) => {
 }
 
 const upDownLastCharacter = (s) => {
-  return s.substring(s.length-1,s.lenths).toUpperCase() +
-   s.substring(s.length-1,s.lenths).toLowerCase()
+  return s.substring(s.length-1,s.length).toUpperCase() +
+   s.substring(s.length-1,s.length).toLowerCase()
 }
+
