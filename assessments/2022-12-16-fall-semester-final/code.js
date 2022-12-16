@@ -179,3 +179,7 @@ const upToX = (s) => {
 const charactersAround = (s, i) => {
   return s.substring(i - 1, i) + s.substring(i + 1, i + 2)
 }
+
+const middle = (s, i) => {
+  return s.substring(s.length / 4, s.length - s.length / 4);
+}
