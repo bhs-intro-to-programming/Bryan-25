@@ -166,3 +166,8 @@ const firstName = (s) => {
 const lastName = (s) => {
   return s.substring(s.indexOf(' ') + 1, s.length)
 }
+
+const initials = (s) => {
+  return s.substring(0,1)+
+  s.substring(s.indexOf(' ') + 1,s.indexOf(' ') + 2)
+}
