@@ -116,3 +116,7 @@ const secondHalf = (s) => {
 const swapFrontAndBack = (s) => {
   return secondHalf(s) + firstHalf(s)
 }
+
+const upDown = (s) => {
+  return s.toUpperCase + s.toLowerCase
+}
