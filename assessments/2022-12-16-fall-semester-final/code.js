@@ -121,6 +121,6 @@ const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
 
-const upDown = (s) => {
+const upDownLastCharacter = (s) => {
   return s[length]
 }
