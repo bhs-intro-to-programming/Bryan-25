@@ -102,5 +102,5 @@ const totalEggs = (hEgg, sEgg) => {
 }
 
 const firstFewEveryOther = (s) => {
-  return s[1]
+  return s[0]
 }
