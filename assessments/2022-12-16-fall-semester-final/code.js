@@ -120,3 +120,7 @@ const swapFrontAndBack = (s) => {
 const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
+
+const upDown = (s) => {
+  return s[length]
+}
