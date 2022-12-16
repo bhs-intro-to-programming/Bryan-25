@@ -177,5 +177,5 @@ const upToX = (s) => {
 };
 
 const charactersAround = (s, i) => {
-  return s.substring(i - 1, i - 1) + s.substring(i + 1, i + 2)
+  return s.substring(i - 1, i - 2) + s.substring(i + 1, i + 2)
 }
