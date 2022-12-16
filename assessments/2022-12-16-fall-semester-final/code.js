@@ -96,3 +96,7 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const totalEggs = (hEgg, sEgg) => {
+  return hEgg + sEgg
+}
