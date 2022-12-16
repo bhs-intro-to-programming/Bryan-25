@@ -140,13 +140,21 @@ const randomCharacter = (s) => {
 
 const randomCharacterUpDown = (s) => {
   return s[rand(s.length)].toUpperCase() +
-   s[rand(s.length)].toLowerCase()
+    s[rand(s.length)].toLowerCase()
 }
 
 const isAllUpperCase = (s) => {
-    if (s.toUpperCase() === s) {
-      return true
-    } else {
-      return false
-    }
+  if (s.toUpperCase() === s) {
+    return true
+  } else {
+    return false
+  }
+}
+
+const sameIgnoringCase = (s1, s2) => {
+  if (s1 === s2)  {
+    return true
+  } else {
+    return false
+  }
 }
