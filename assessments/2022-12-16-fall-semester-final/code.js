@@ -126,3 +126,6 @@ const upDownLastCharacter = (s) => {
    s.substring(s.length-1,s.length).toLowerCase()
 }
 
+const firstAndLast = (s) => {
+  return s[0] + s[length]
+}
