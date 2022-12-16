@@ -197,6 +197,6 @@ const containsX = (s) => {
 }
 
 const capitalize = (s) => {
-  return s.substring(0, 1).toUpper()
-    + s.susbstring(1, s.length).toLowerCase()
+  return s[0].toUpperCase +
+  s.substring(1,s.length).toLowerCase
 }
