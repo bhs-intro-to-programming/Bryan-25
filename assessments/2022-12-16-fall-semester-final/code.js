@@ -131,5 +131,5 @@ const firstAndLast = (s) => {
 }
 
 const simplePigLatin = (s, v) => {
-  return s.substring(0, v - 1)
+  return s.substring(v, s.length) + s.substring(0, v - 1)
 }
