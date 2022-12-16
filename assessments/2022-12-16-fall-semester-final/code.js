@@ -100,3 +100,7 @@ const pair = (a, b) => {
 const totalEggs = (hEgg, sEgg) => {
   return hEgg + sEgg
 }
+
+const firstFewEveryOther = (s) => {
+  return s[1]
+}
