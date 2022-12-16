@@ -189,7 +189,7 @@ const paire = (s1, s2) => {
 }
 
 const containsX = (s) => {
-    if (s.indexOf(x) >= 0) {
+    if (s.indexOf('x') >= 0) {
     return true
   } else {
     return false
