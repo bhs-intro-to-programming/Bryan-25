@@ -129,3 +129,7 @@ const upDownLastCharacter = (s) => {
 const firstAndLast = (s) => {
   return s[0] + s.substring(s.length - 1, s.length)
 }
+
+const simplePigLatin = (s,v) => {
+  return s[2-1]
+}
