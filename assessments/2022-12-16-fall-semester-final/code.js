@@ -130,6 +130,6 @@ const firstAndLast = (s) => {
   return s[0] + s.substring(s.length - 1, s.length)
 }
 
-const simplePigLatin = (s,v) => {
-  return s.substring(0,s[v-1])
+const simplePigLatin = (s, v) => {
+  return s.substring(0, v - 1])
 }
