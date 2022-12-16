@@ -118,5 +118,5 @@ const swapFrontAndBack = (s) => {
 }
 
 const upDown = (s) => {
-  return s.toUpperCase + s.toLowerCase
+  return s.toUpperCase() + s.toLowerCase()
 }
