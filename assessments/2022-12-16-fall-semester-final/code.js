@@ -189,9 +189,13 @@ const paire = (s1, s2) => {
 }
 
 const containsX = (s) => {
-    if (s.indexOf('x') >= 0) {
+  if (s.indexOf('x') >= 0) {
     return true
   } else {
     return false
   }
+}
+
+const capitalize = (s1) => {
+  return s[0].toUpper + s.substring(1, s.length).toLowerCase
 }
