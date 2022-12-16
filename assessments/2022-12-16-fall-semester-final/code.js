@@ -175,3 +175,7 @@ const initials = (s) => {
 const upToX = (s) => {
   return s.substring(0, s.indexOf('x'))
 };
+
+const charactersAround = (s, i) => {
+  return s.substring(i - 2, i - 1) + s.substring(i + 1, i + 2)
+}
