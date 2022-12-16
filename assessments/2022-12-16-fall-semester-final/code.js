@@ -164,5 +164,5 @@ const firstName = (s) => {
 }
 
 const lastName = (s) => {
-  return s.substring(s.indexOf(' '), s.length)
+  return s.substring(s.indexOf(' ') + 1, s.length)
 }
