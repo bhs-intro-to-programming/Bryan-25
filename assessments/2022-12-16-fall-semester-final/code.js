@@ -133,3 +133,7 @@ const firstAndLast = (s) => {
 const simplePigLatin = (s, v) => {
   return s.substring(v, s.length) + s.substring(0, v) + 'ay'
 }
+
+const randomCharacter = () => {
+  return 
+}
