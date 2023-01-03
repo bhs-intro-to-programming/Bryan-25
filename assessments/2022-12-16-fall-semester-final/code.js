@@ -46,7 +46,7 @@ const recordMeh = (x) => { log(`MEH: ${x}`); }
 
 /*
  * This one is some particular dark magic. Definitely don't worry about
- * what it's doing.
+ * what it's doing. How spoopy
  */
 const hash = (s) => {
   return [...JSON.stringify(s)]
@@ -96,3 +96,107 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const totalEggs = (hEgg, sEgg) => {
+  return hEgg + sEgg
+}
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+}
+
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length / 2)
+}
+
+const swapFrontAndBack = (s) => {
+  return secondHalf(s) + firstHalf(s)
+}
+
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase()
+}
+
+const upDownLastCharacter = (s) => {
+  return s.substring(s.length - 1, s.length).toUpperCase() +
+    s.substring(s.length - 1, s.length).toLowerCase()
+}
+
+const firstAndLast = (s) => {
+  return s[0] + s.substring(s.length - 1, s.length)
+}
+
+const simplePigLatin = (s, v) => {
+  return s.substring(v, s.length) + s.substring(0, v) + 'ay'
+}
+
+const randomCharacter = (s) => {
+  return s[rand(s.length)]
+}
+
+const randomCharacterUpDown = (s) => {
+  return s[rand(s.length)].toUpperCase() +
+    s[rand(s.length)].toLowerCase()
+}
+
+const isAllUpperCase = (s) => {
+  if (s.toUpperCase() === s) {
+    return true
+  } else {
+    return false
+  }
+}
+
+const sameIgnoringCase = (s1, s2) => {
+  if (s1.toUpperCase() === s2.toUpperCase()) {
+    return true
+  } else {
+    return false
+  }
+}
+
+const firstName = (s) => {
+  return s.substring(0, s.indexOf(' '))
+}
+
+const lastName = (s) => {
+  return s.substring(s.indexOf(' ') + 1, s.length)
+}
+
+const initials = (s) => {
+  return s.substring(0, 1) +
+    s.substring(s.indexOf(' ') + 1, s.indexOf(' ') + 2)
+}
+
+const upToX = (s) => {
+  return s.substring(0, s.indexOf('x'))
+};
+
+const charactersAround = (s, i) => {
+  return s.substring(i - 1, i) + s.substring(i + 1, i + 2)
+}
+
+const middle = (s) => {
+  return s.substring(s.length / 4, s.length - s.length / 4);
+}
+
+const paire = (s1, s2) => {
+  return s1 + ' and ' + s2
+}
+
+const containsX = (s) => {
+  if (s.indexOf('x') >= 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
+const capitalize = (s) => {
+  return s[0].toUpperCase() +
+  s.substring(1,s.length).toLowerCase()
+}
