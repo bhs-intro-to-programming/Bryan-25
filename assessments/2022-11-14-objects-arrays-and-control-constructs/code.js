@@ -2,15 +2,25 @@
 // should save you some time.
 
 const area = (rect) => {
+  return rect.width * rect.height
 };
 
 const higherPaid = (e1, e2) => {
+  if (e1.salary > e2.salary) {
+    return e1
+  } else {
+    return e2
+  }
+
 };
 
 const isSamePoint = (p1, p2) => {
+  let point = { x: p1, y: p2 };
+  return point.x == point.y
 };
 
 const totalWithTip = (bill, tipPercentage) => {
+  return { total: bill.subtotal + (tipPercentage * bill.subtotal), subtotal: bill.subtotal, tip: tipPercentage * bill.subtotal }
 };
 
 const isWinner = (player) => {
