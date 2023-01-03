@@ -34,13 +34,39 @@
  *  height - the height of the drawing area.
  *
  */
+drawLine(0, 600, 500, 0, 'red', 20)
 
-drawLine(0, 0, width, height, 'red')
+drawLine(0, 600, 0, 0, 'coral', 1000)
+
+drawLine(500, 500, 0, 500, 'yellow',50 )
+
+drawLine(500, 150, 0, 150, 'lightsalmon',50 )
+
+drawLine(500, 100, 0, 100, 'dodgerblue',100 )
+
+drawLine(500, 0, 0, 0, 'royalblue',200 )
+
+drawLine(0, 600, 0, 0, 'black', 20)
+
+drawLine(0, 600, 600, 600, 'black', 20)
+
+drawLine(600, 0, 0, 0, 'black', 20)
+
+drawLine(500, height, 500, 0, 'black', 20)
 
 drawCircle(width/2, height/2, 10, 'blue');
 
-drawRect(50, 50, 60, 40, 'black');
+/*drawRect(50, 50, 60, 40, 'black');
+*/
 
-drawFilledCircle(width - 50, height - 50, 50, 'red');
+drawFilledCircle( 250, 300, 50, 'gold');
+
+drawFilledCircle( 100, 600, 300, 'green');
+
+drawCircle( 100, 600, 300, 'black');
+
+drawFilledCircle( 400, 600, 300, 'forestgreen');
+
+drawCircle( 400, 600, 300, 'black');
 
 drawFilledRect(5, height - 20, 45, 15, 'purple');
